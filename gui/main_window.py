@@ -18,7 +18,6 @@ from data.video_processor import VideoProcessor
 from gui.sentence_widget import SentenceWidget
 from gui.notes_panel import NotesPanel
 
-
 # ФУНКЦІЇ ФОРМАТУВАННЯ ЧАСУ (НА ПОЧАТКУ, ЗОВНІ КЛАСУ)
 def format_time(seconds: float, short: bool = False) -> str:
     """Форматує час з секунд у зручний формат"""
@@ -59,11 +58,9 @@ def format_time(seconds: float, short: bool = False) -> str:
 
     return " ".join(parts)
 
-
 def format_duration(duration_seconds: float, short: bool = False) -> str:
     """Форматує тривалість"""
     return format_time(duration_seconds, short)
-
 
 def calculate_total_duration(sentences: List[Dict]) -> float:
     """Обчислює загальну тривалість всіх речень"""
@@ -73,7 +70,6 @@ def calculate_total_duration(sentences: List[Dict]) -> float:
             duration = sentence['end_time'] - sentence['start_time']
             total += duration
     return total
-
 
 def get_video_time_stats(sentences: List[Dict]) -> Dict[str, str]:
     """Отримує статистику часу для відео"""
@@ -116,7 +112,7 @@ def get_video_time_stats(sentences: List[Dict]) -> Dict[str, str]:
     }
 
 
-class MainWindow:
+class UpdatedMainWindow:
     """Головне вікно програми з підтримкою тільки граматичних пояснень"""
 
     def __init__(self):
@@ -170,7 +166,7 @@ class MainWindow:
         except Exception as e:
             self.logger.error(f"Помилка ініціалізації менеджерів: {e}")
             messagebox.showerror("Критична помилка",
-                                 f"Не вдалося ініціалізувати систему: {e}")
+                               f"Не вдалося ініціалізувати систему: {e}")
 
     def create_interface(self):
         """Створює інтерфейс програми"""
@@ -206,8 +202,7 @@ class MainWindow:
         ai_menu = tk.Menu(menubar, tearoff=0)
         menubar.add_cascade(label="AI", menu=ai_menu)
         ai_menu.add_command(label="Генерувати граматику для всіх", command=self.generate_grammar_for_all)
-        ai_menu.add_command(label="Генерувати граматику для поточного відео",
-                            command=self.generate_grammar_for_current_video)
+        ai_menu.add_command(label="Генерувати граматику для поточного відео", command=self.generate_grammar_for_current_video)
         ai_menu.add_separator()
         ai_menu.add_command(label="Статус AI", command=self.show_ai_status)
 
@@ -240,20 +235,20 @@ class MainWindow:
         buttons_frame.pack(side=tk.RIGHT)
 
         ttk.Button(buttons_frame, text="🔄 Оновити",
-                   command=self.refresh_videos).pack(side=tk.LEFT, padx=2)
+                  command=self.refresh_videos).pack(side=tk.LEFT, padx=2)
 
         ttk.Button(buttons_frame, text="⚙️ Обробити",
-                   command=self.process_current_video).pack(side=tk.LEFT, padx=2)
+                  command=self.process_current_video).pack(side=tk.LEFT, padx=2)
 
         ttk.Button(buttons_frame, text="📚 Граматика",
-                   command=self.generate_grammar_for_current_video).pack(side=tk.LEFT, padx=2)
+                  command=self.generate_grammar_for_current_video).pack(side=tk.LEFT, padx=2)
 
         ttk.Button(buttons_frame, text="📊 Статистика",
-                   command=self.show_video_statistics).pack(side=tk.LEFT, padx=2)
+                  command=self.show_video_statistics).pack(side=tk.LEFT, padx=2)
 
         # Кнопка скасування створення віджетів
         self.cancel_button = ttk.Button(buttons_frame, text="❌ Скасувати",
-                                        command=self.cancel_widget_creation, state=tk.DISABLED)
+                                      command=self.cancel_widget_creation, state=tk.DISABLED)
         self.cancel_button.pack(side=tk.LEFT, padx=2)
 
         # Індикатор стану AI
@@ -315,7 +310,7 @@ class MainWindow:
         # Canvas та Scrollbar
         self.sentences_canvas = tk.Canvas(parent, bg="white", highlightthickness=0)
         sentences_scrollbar = ttk.Scrollbar(parent, orient="vertical",
-                                            command=self.sentences_canvas.yview)
+                                          command=self.sentences_canvas.yview)
 
         self.sentences_scrollable_frame = ttk.Frame(self.sentences_canvas)
 
@@ -343,7 +338,7 @@ class MainWindow:
 
     def _on_sentences_mousewheel(self, event):
         """Обробка прокрутки мишкою для речень"""
-        self.sentences_canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+        self.sentences_canvas.yview_scroll(int(-1*(event.delta/120)), "units")
 
     def create_notes_panel(self):
         """Створює панель нотаток"""
@@ -458,7 +453,7 @@ class MainWindow:
 
                 try:
                     sentence = sentences[i]
-                    self.logger.info(f"Створення речення {i + 1}/{total}: {sentence['text'][:30]}...")
+                    self.logger.info(f"Створення речення {i+1}/{total}: {sentence['text'][:30]}...")
 
                     # Перевіряємо структуру речення
                     required_fields = ['text', 'start_time', 'end_time']
@@ -490,7 +485,7 @@ class MainWindow:
 
             # Оновлюємо прогрес
             current_index = batch_end
-            progress_text = f"Створення віджетів: {current_index}/{total} ({current_index / total * 100:.1f}%)"
+            progress_text = f"Створення віджетів: {current_index}/{total} ({current_index/total*100:.1f}%)"
             self.update_progress_message(progress_text)
 
             # Примусово оновлюємо інтерфейс
@@ -699,8 +694,8 @@ class MainWindow:
 • Довгі (> 10 сек): {long_sentences} речень
 
 🎯 ЕФЕКТИВНІСТЬ:
-• Символів/секунда: {total_chars / sum(durations):.1f} (швидкість мовлення)
-• Речень/хвилина: {len(durations) / (sum(durations) / 60):.1f}
+• Символів/секунда: {total_chars/sum(durations):.1f} (швидкість мовлення)
+• Речень/хвилина: {len(durations)/(sum(durations)/60):.1f}
 """
 
             # Створюємо вікно статистики
@@ -718,7 +713,7 @@ class MainWindow:
 
             # Кнопка закриття
             close_btn = ttk.Button(stats_window, text="Закрити",
-                                   command=stats_window.destroy)
+                                  command=stats_window.destroy)
             close_btn.pack(pady=10)
 
         except Exception as e:
@@ -739,7 +734,7 @@ class MainWindow:
 
             # Завантажуємо речення в окремому потоці
             threading.Thread(target=self.load_sentences_for_video,
-                             args=(filename,), daemon=True).start()
+                           args=(filename,), daemon=True).start()
 
         except Exception as e:
             self.logger.error(f"Помилка вибору відео: {e}")
@@ -771,8 +766,7 @@ class MainWindow:
         except Exception as e:
             error_msg = str(e)
             self.logger.error(f"Помилка завантаження речень: {error_msg}")
-            self.root.after(0, lambda msg=error_msg: messagebox.showerror("Помилка",
-                                                                          f"Не вдалося завантажити речення: {msg}"))
+            self.root.after(0, lambda msg=error_msg: messagebox.showerror("Помилка", f"Не вдалося завантажити речення: {msg}"))
 
     def on_sentence_clicked(self, sentence_data: Dict, video_filename: str):
         """Обробляє клік по реченню"""
@@ -795,7 +789,7 @@ class MainWindow:
     def generate_grammar_for_all(self):
         """Генерує граматичні пояснення для всіх речень всіх відео"""
         if messagebox.askyesno("Підтвердження",
-                               "Згенерувати граматичні пояснення для всіх речень?\nЦе може зайняти дуже багато часу."):
+                              "Згенерувати граматичні пояснення для всіх речень?\nЦе може зайняти дуже багато часу."):
             threading.Thread(target=self.generate_grammar_for_all_thread, daemon=True).start()
 
     def generate_grammar_for_all_thread(self):
@@ -814,7 +808,7 @@ class MainWindow:
 
             for video_idx, video in enumerate(processed_videos):
                 filename = video['video_filename']
-                self.update_status(f"Обробка відео {video_idx + 1}/{total_videos}: {filename}")
+                self.update_status(f"Обробка відео {video_idx+1}/{total_videos}: {filename}")
 
                 # Завантажуємо речення для відео
                 from processing.database_manager import DatabaseManager
@@ -860,7 +854,7 @@ class MainWindow:
             return
 
         if messagebox.askyesno("Підтвердження",
-                               f"Згенерувати граматичні пояснення для всіх речень у {self.current_video}?"):
+                              f"Згенерувати граматичні пояснення для всіх речень у {self.current_video}?"):
             threading.Thread(target=self.generate_grammar_for_current_video_thread, daemon=True).start()
 
     def generate_grammar_for_current_video_thread(self):
@@ -873,7 +867,7 @@ class MainWindow:
             total_sentences = len(self.current_sentences)
 
             for i, sentence in enumerate(self.current_sentences):
-                self.update_status(f"Генерація граматики {i + 1}/{total_sentences}...")
+                self.update_status(f"Генерація граматики {i+1}/{total_sentences}...")
 
                 # Тільки граматика
                 grammar = self.ai_manager.explain_grammar(sentence['text'])
@@ -940,13 +934,13 @@ class MainWindow:
             button_frame.pack(fill=tk.X, padx=10, pady=10)
 
             ttk.Button(button_frame, text="🔄 Оновити",
-                       command=lambda: self.refresh_ai_status(text_widget)).pack(side=tk.LEFT, padx=5)
+                      command=lambda: self.refresh_ai_status(text_widget)).pack(side=tk.LEFT, padx=5)
 
             ttk.Button(button_frame, text="🧪 Тест AI",
-                       command=lambda: self.test_ai_connection(text_widget)).pack(side=tk.LEFT, padx=5)
+                      command=lambda: self.test_ai_connection(text_widget)).pack(side=tk.LEFT, padx=5)
 
             ttk.Button(button_frame, text="Закрити",
-                       command=status_window.destroy).pack(side=tk.RIGHT, padx=5)
+                      command=status_window.destroy).pack(side=tk.RIGHT, padx=5)
 
         except Exception as e:
             self.logger.error(f"Помилка показу статусу AI: {e}")
@@ -1154,7 +1148,7 @@ class MainWindow:
         if file_path:
             # Копіюємо файл в папку videos/ та обробляємо
             threading.Thread(target=self.add_and_process_video,
-                             args=(file_path,), daemon=True).start()
+                           args=(file_path,), daemon=True).start()
 
     def add_and_process_video(self, file_path: str):
         """Додає та обробляє новий відео файл"""
@@ -1200,7 +1194,7 @@ class MainWindow:
     def process_all_videos(self):
         """Обробляє всі відео файли"""
         if messagebox.askyesno("Підтвердження",
-                               "Перепроцесувати всі відео файли?\nЦе може зайняти багато часу."):
+                              "Перепроцесувати всі відео файли?\nЦе може зайняти багато часу."):
             threading.Thread(target=self.process_all_videos_thread, daemon=True).start()
 
     def process_all_videos_thread(self):
@@ -1269,7 +1263,7 @@ class MainWindow:
     def simple_about(self):
         """Простий діалог про програму"""
         messagebox.showinfo("Про програму",
-                            "Game Learning v2.0\n\nПрограма для вивчення англійської мови\nчерез ігрові відео з AI підтримкою.\n\n🚀 Українська розробка!")
+                           "Game Learning v2.0\n\nПрограма для вивчення англійської мови\nчерез ігрові відео з AI підтримкою.\n\n🚀 Українська розробка!")
 
 
 # ==============================================================
@@ -1307,10 +1301,9 @@ if __name__ == "__main__":
 
     # Запуск програми
     try:
-        app = MainWindow()
+        app = UpdatedMainWindow()
         app.run()
     except Exception as e:
         print(f"❌ Помилка запуску програми: {e}")
         import traceback
-
         traceback.print_exc()
