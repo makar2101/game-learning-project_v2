@@ -1,0 +1,47 @@
+{
+  "widget_creation": {
+    "batch_size": 5,
+    "delay_between_batches_ms": 100,
+    "max_widgets_per_frame": 10,
+    "enable_memory_monitoring": true,
+    "memory_threshold_mb": 800,
+    "max_concurrent_widgets": 100
+  },
+  "gui_optimization": {
+    "update_frequency_ms": 50,
+    "max_pending_updates": 20,
+    "enable_batch_updates": true,
+    "idle_update_interval_ms": 100
+  },
+  "error_handling": {
+    "max_recursion_depth": 30,
+    "error_reporting_interval_sec": 60,
+    "suppress_duplicate_errors": true,
+    "log_performance_warnings": true,
+    "slow_operation_threshold_sec": 2.0
+  },
+  "memory_management": {
+    "garbage_collection_interval_sec": 300,
+    "force_gc_on_low_memory": true,
+    "widget_cleanup_on_destroy": true,
+    "clear_caches_on_memory_pressure": true
+  },
+  "threading": {
+    "max_worker_threads": 4,
+    "thread_timeout_sec": 30,
+    "ai_request_delay_sec": 1,
+    "max_concurrent_ai_requests": 2
+  },
+  "video_processing": {
+    "chunk_size_sentences": 50,
+    "process_in_background": true,
+    "cache_processed_segments": true,
+    "max_video_cache_mb": 200
+  },
+  "ui_responsiveness": {
+    "progress_update_frequency": 10,
+    "auto_scroll_during_creation": false,
+    "defer_heavy_operations": true,
+    "max_ui_freeze_time_ms": 100
+  }
+}
