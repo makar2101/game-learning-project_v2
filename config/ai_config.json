@@ -1,0 +1,59 @@
+{
+  "ollama": {
+    "enabled": true,
+    "model": "llama3.1:8b",
+    "base_url": "http://localhost:11434",
+    "timeout": 25,
+    "max_retries": 3,
+    "temperature": 0.15
+  },
+  "skyrim_context": {
+    "enable_fantasy_terms": true,
+    "enable_nordic_context": true,
+    "max_response_length": 250,
+    "preferred_format": "ultra_concise",
+    "common_terms": {
+      "dragonborn": "Народжений драконом",
+      "thu'um": "Крик дракона",
+      "jarl": "ярл",
+      "thane": "тан",
+      "septim": "септим (монета)",
+      "nord": "норд",
+      "imperial": "імперець",
+      "stormcloaks": "Буревійники",
+      "fus_ro_dah": "Фус Ро Дах (Сила)"
+    }
+  },
+  "response_formatting": {
+    "include_translation": true,
+    "include_emojis": true,
+    "max_grammar_explanation": 80,
+    "auto_trim": true,
+    "format_template": "🇺🇦 ПЕРЕКЛАД: {translation}\n\n📚 ГРАМАТИКА: {grammar}",
+    "emoji_mapping": {
+      "translation": "🇺🇦",
+      "grammar": "📚",
+      "fantasy": "🐉",
+      "dialogue": "💬",
+      "character": "👑"
+    }
+  },
+  "performance": {
+    "cache_responses": true,
+    "max_cache_size": 100,
+    "response_timeout": 25,
+    "batch_processing": false,
+    "async_requests": true
+  },
+  "quality_control": {
+    "min_response_length": 20,
+    "max_response_length": 300,
+    "require_translation": true,
+    "require_grammar": true,
+    "auto_correct_format": true
+  },
+  "auto_check_updates": true,
+  "preferred_language": "uk",
+  "version": "2.0",
+  "last_updated": "2024-12-19"
+}

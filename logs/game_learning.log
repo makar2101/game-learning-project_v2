@@ -6274,3 +6274,930 @@ RecursionError: maximum recursion depth exceeded while calling a Python object
 2025-05-31 15:42:30,927 - gui.main_window - INFO - Очищення 9 віджетів...
 2025-05-31 15:42:30,971 - gui.main_window - INFO - Очищення завершено
 2025-05-31 15:42:31,023 - __main__ - INFO - Програма завершена нормально
+2025-05-31 17:11:19,723 - __main__ - INFO - ============================================================
+2025-05-31 17:11:19,724 - __main__ - INFO - Game Learning v2.0 - Запуск програми
+2025-05-31 17:11:19,724 - __main__ - INFO - ============================================================
+2025-05-31 17:11:19,724 - __main__ - INFO - Початок ініціалізації системи...
+2025-05-31 17:11:19,724 - __main__ - INFO - Перевірка залежностей...
+2025-05-31 17:11:21,361 - __main__ - INFO - Перевірка зовнішніх інструментів...
+2025-05-31 17:11:21,393 - __main__ - INFO - FFmpeg знайдено
+2025-05-31 17:11:23,463 - __main__ - INFO - Ollama знайдено з 2 Llama моделями
+2025-05-31 17:11:23,463 - __main__ - INFO - Статус системи:
+2025-05-31 17:11:23,463 - __main__ - INFO - FFmpeg: ✅ Доступний
+2025-05-31 17:11:23,463 - __main__ - INFO - Ollama: ✅ Доступний (2 Llama моделей)
+2025-05-31 17:11:23,463 - __main__ - INFO - Запуск головного вікна...
+2025-05-31 17:11:23,763 - ai.ai_manager - ERROR - Помилка завантаження конфігурації: Expecting value: line 1 column 1 (char 0)
+2025-05-31 17:11:25,831 - ai.ai_manager - INFO - Ollama клієнт ініціалізований: llama3.1:8b
+2025-05-31 17:11:25,831 - data.data_manager - INFO - База даних ініціалізована успішно
+2025-05-31 17:11:25,832 - processing.transcriber - INFO - Використовується пристрій: cpu
+2025-05-31 17:11:25,832 - processing.transcriber - INFO - Завантаження Whisper модель: tiny
+2025-05-31 17:11:26,129 - processing.transcriber - INFO - Модель успішно завантажена!
+2025-05-31 17:11:26,130 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:26,131 - data.data_manager - INFO - База даних ініціалізована успішно
+2025-05-31 17:11:26,131 - gui.main_window - INFO - Всі менеджери ініціалізовані успішно
+2025-05-31 17:11:30,518 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,520 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 17:11:30,520 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,521 - data.video_processor - INFO - Дедуплікація: 28 → 10 речень
+2025-05-31 17:11:30,522 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,523 - data.video_processor - INFO - Дедуплікація: 13 → 5 речень
+2025-05-31 17:11:30,523 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,524 - data.video_processor - INFO - Дедуплікація: 19 → 11 речень
+2025-05-31 17:11:30,525 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,526 - data.video_processor - INFO - Дедуплікація: 52 → 43 речень
+2025-05-31 17:11:30,526 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,527 - data.video_processor - INFO - Дедуплікація: 8 → 8 речень
+2025-05-31 17:11:30,528 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,530 - data.video_processor - INFO - Дедуплікація: 81 → 69 речень
+2025-05-31 17:11:30,530 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,531 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 17:11:30,532 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,534 - data.video_processor - INFO - Дедуплікація: 97 → 78 речень
+2025-05-31 17:11:30,535 - gui.main_window - INFO - Завантажено 9 відео
+2025-05-31 17:11:30,535 - __main__ - INFO - Головне вікно створено успішно
+2025-05-31 17:11:30,536 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 17:11:30,537 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 17:11:30,596 - gui.main_window - INFO - === ПОЧАТОК ВІДОБРАЖЕННЯ РЕЧЕНЬ ===
+2025-05-31 17:11:30,597 - gui.main_window - INFO - Кількість речень для відображення: 9
+2025-05-31 17:11:30,597 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 17:11:30,597 - gui.main_window - INFO - Очищення завершено
+2025-05-31 17:11:30,612 - gui.main_window - INFO - Заголовок оновлено: 2025-05-31 14-06-16.mkv, статистика: 9 речень • ⏱️ 14.7 сек • 📊 середнє: 1.6с • 📏 0.5с - 4.1с
+2025-05-31 17:11:30,665 - data.video_processor - INFO - Початок обробки всіх відео
+2025-05-31 17:11:30,667 - data.video_processor - INFO - Знайдено 10 відео файлів
+2025-05-31 17:11:30,667 - data.video_processor - INFO - Початок обробки: 2025-05-31 15-54-30.mkv
+2025-05-31 17:11:30,683 - gui.main_window - INFO - Створення речення 1/9: That's great now...
+2025-05-31 17:11:30,709 - gui.sentence_widget - INFO - ✅ SentenceWidget 0 створений успішно
+2025-05-31 17:11:30,709 - gui.main_window - INFO - ✅ SentenceWidget 0 створений успішно
+2025-05-31 17:11:30,709 - gui.main_window - INFO - Створення речення 2/9: And you good guy....
+2025-05-31 17:11:30,716 - gui.sentence_widget - INFO - ✅ SentenceWidget 1 створений успішно
+2025-05-31 17:11:30,716 - gui.main_window - INFO - ✅ SentenceWidget 1 створений успішно
+2025-05-31 17:11:30,716 - gui.main_window - INFO - Створення речення 3/9: Let's just watch the video....
+2025-05-31 17:11:30,724 - gui.sentence_widget - INFO - ✅ SentenceWidget 2 створений успішно
+2025-05-31 17:11:30,724 - gui.main_window - INFO - ✅ SentenceWidget 2 створений успішно
+2025-05-31 17:11:30,724 - gui.main_window - INFO - Створення речення 4/9: Let's see the original one....
+2025-05-31 17:11:30,729 - data.video_processor - ERROR - Помилка обробки 2025-05-31 15-54-30.mkv: 'duration'
+2025-05-31 17:11:30,730 - data.video_processor - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\data\video_processor.py", line 494, in process_single_video
+    duration = float(video_file_info['format']['duration']) if video_file_info else None
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'duration'
+
+2025-05-31 17:11:30,731 - gui.sentence_widget - INFO - ✅ SentenceWidget 3 створений успішно
+2025-05-31 17:11:30,731 - gui.main_window - INFO - ✅ SentenceWidget 3 створений успішно
+2025-05-31 17:11:30,731 - gui.main_window - INFO - Створення речення 5/9: Let's see how the video is....
+2025-05-31 17:11:30,737 - gui.sentence_widget - INFO - ✅ SentenceWidget 4 створений успішно
+2025-05-31 17:11:30,737 - gui.main_window - INFO - ✅ SentenceWidget 4 створений успішно
+2025-05-31 17:11:30,954 - gui.main_window - INFO - Створення речення 6/9: I'm going to do it....
+2025-05-31 17:11:30,961 - gui.sentence_widget - INFO - ✅ SentenceWidget 5 створений успішно
+2025-05-31 17:11:30,961 - gui.main_window - INFO - ✅ SentenceWidget 5 створений успішно
+2025-05-31 17:11:30,961 - gui.main_window - INFO - Створення речення 7/9: Let's see if it's okay....
+2025-05-31 17:11:30,967 - gui.sentence_widget - INFO - ✅ SentenceWidget 6 створений успішно
+2025-05-31 17:11:30,967 - gui.main_window - INFO - ✅ SentenceWidget 6 створений успішно
+2025-05-31 17:11:30,967 - gui.main_window - INFO - Створення речення 8/9: Thank you....
+2025-05-31 17:11:30,973 - gui.sentence_widget - INFO - ✅ SentenceWidget 7 створений успішно
+2025-05-31 17:11:30,973 - gui.main_window - INFO - ✅ SentenceWidget 7 створений успішно
+2025-05-31 17:11:30,973 - gui.main_window - INFO - Створення речення 9/9: Oh, salty vault....
+2025-05-31 17:11:30,979 - gui.sentence_widget - INFO - ✅ SentenceWidget 8 створений успішно
+2025-05-31 17:11:30,979 - gui.main_window - INFO - ✅ SentenceWidget 8 створений успішно
+2025-05-31 17:11:31,172 - gui.main_window - INFO - === СТВОРЕНО 9 ВІДЖЕТІВ ===
+2025-05-31 17:11:31,194 - gui.main_window - INFO - === ВІДОБРАЖЕННЯ ЗАВЕРШЕНО: 9 віджетів ===
+2025-05-31 17:12:08,070 - data.data_manager - INFO - Новий стан створено для 2025-05-31 15-54-30.mkv
+2025-05-31 17:12:10,991 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 14-40-26.mkv
+2025-05-31 17:12:13,679 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 14-32-47.mkv
+2025-05-31 17:12:20,330 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 14-17-52.mkv
+2025-05-31 17:12:25,684 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 14-06-16.mkv
+2025-05-31 17:12:34,146 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-45-19.mkv
+2025-05-31 17:12:36,867 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-28-01.mkv
+2025-05-31 17:12:37,542 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-23-48.mkv
+2025-05-31 17:12:40,175 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 12-11-12.mkv
+2025-05-31 17:12:40,354 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-30 22-25-00.mkv
+2025-05-31 17:12:40,354 - data.video_processor - INFO - Обробка завершена: 0/1 успішно
+2025-05-31 17:12:40,354 - data.video_processor - INFO - Загальний час: 69.7 секунд
+2025-05-31 17:12:40,354 - data.video_processor - INFO - Речень витягнуто: 0
+2025-05-31 18:10:34,957 - __main__ - INFO - Програма зупинена користувачем (Ctrl+C)
+2025-05-31 18:10:36,047 - __main__ - INFO - ============================================================
+2025-05-31 18:10:36,047 - __main__ - INFO - Game Learning v2.0 - Запуск програми
+2025-05-31 18:10:36,047 - __main__ - INFO - ============================================================
+2025-05-31 18:10:36,047 - __main__ - INFO - Початок ініціалізації системи...
+2025-05-31 18:10:36,048 - __main__ - INFO - Перевірка залежностей...
+2025-05-31 18:10:38,112 - __main__ - INFO - Перевірка зовнішніх інструментів...
+2025-05-31 18:10:38,141 - __main__ - INFO - FFmpeg знайдено
+2025-05-31 18:10:40,216 - __main__ - INFO - Ollama знайдено з 2 Llama моделями
+2025-05-31 18:10:40,216 - __main__ - INFO - Статус системи:
+2025-05-31 18:10:40,216 - __main__ - INFO - FFmpeg: ✅ Доступний
+2025-05-31 18:10:40,216 - __main__ - INFO - Ollama: ✅ Доступний (2 Llama моделей)
+2025-05-31 18:10:40,216 - __main__ - INFO - Запуск головного вікна...
+2025-05-31 18:10:40,301 - ai.ai_manager - INFO - Конфігурація AI завантажена
+2025-05-31 18:10:42,355 - ai.ai_manager - INFO - Ollama клієнт ініціалізований: llama3.1:8b
+2025-05-31 18:10:42,355 - ai.ai_manager - INFO - ✨ Skyrim контекст активовано для Fantasy RPG діалогів
+2025-05-31 18:10:42,355 - data.data_manager - INFO - База даних ініціалізована успішно
+2025-05-31 18:10:42,356 - processing.transcriber - INFO - Використовується пристрій: cpu
+2025-05-31 18:10:42,356 - processing.transcriber - INFO - Завантаження Whisper модель: tiny
+2025-05-31 18:10:42,597 - processing.transcriber - INFO - Модель успішно завантажена!
+2025-05-31 18:10:42,598 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:42,599 - data.data_manager - INFO - База даних ініціалізована успішно
+2025-05-31 18:10:42,599 - gui.main_window - INFO - Всі менеджери ініціалізовані успішно
+2025-05-31 18:10:46,974 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,979 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 18:10:46,979 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,980 - data.video_processor - INFO - Дедуплікація: 28 → 10 речень
+2025-05-31 18:10:46,981 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,982 - data.video_processor - INFO - Дедуплікація: 13 → 5 речень
+2025-05-31 18:10:46,982 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,983 - data.video_processor - INFO - Дедуплікація: 19 → 11 речень
+2025-05-31 18:10:46,984 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,985 - data.video_processor - INFO - Дедуплікація: 52 → 43 речень
+2025-05-31 18:10:46,985 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,987 - data.video_processor - INFO - Дедуплікація: 8 → 8 речень
+2025-05-31 18:10:46,987 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,989 - data.video_processor - INFO - Дедуплікація: 81 → 69 речень
+2025-05-31 18:10:46,989 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,990 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:10:46,991 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,992 - data.video_processor - INFO - Дедуплікація: 97 → 78 речень
+2025-05-31 18:10:46,994 - gui.main_window - INFO - Завантажено 9 відео
+2025-05-31 18:10:46,994 - __main__ - INFO - Головне вікно створено успішно
+2025-05-31 18:10:46,995 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:10:46,996 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 18:10:47,040 - gui.main_window - INFO - === ПОЧАТОК ВІДОБРАЖЕННЯ РЕЧЕНЬ ===
+2025-05-31 18:10:47,040 - gui.main_window - INFO - Кількість речень для відображення: 9
+2025-05-31 18:10:47,040 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:10:47,040 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:10:47,055 - gui.main_window - INFO - Заголовок оновлено: 2025-05-31 14-06-16.mkv, статистика: 9 речень • ⏱️ 14.7 сек • 📊 середнє: 1.6с • 📏 0.5с - 4.1с
+2025-05-31 18:10:47,106 - data.video_processor - INFO - Початок обробки всіх відео
+2025-05-31 18:10:47,107 - data.video_processor - INFO - Знайдено 10 відео файлів
+2025-05-31 18:10:47,107 - data.video_processor - INFO - Початок обробки: 2025-05-31 17-47-20.mkv
+2025-05-31 18:10:47,139 - gui.main_window - INFO - Створення речення 1/9: That's great now...
+2025-05-31 18:10:47,152 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,152 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,154 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 0: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,154 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 0: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,155 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,155 - gui.main_window - INFO - Створення речення 2/9: And you good guy....
+2025-05-31 18:10:47,157 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,157 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,158 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 1: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,158 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 1: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,158 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,158 - gui.main_window - INFO - Створення речення 3/9: Let's just watch the video....
+2025-05-31 18:10:47,160 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,160 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,161 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 2: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,161 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 2: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,161 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,161 - gui.main_window - INFO - Створення речення 4/9: Let's see the original one....
+2025-05-31 18:10:47,162 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,162 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,163 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 3: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,163 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 3: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,164 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,164 - gui.main_window - INFO - Створення речення 5/9: Let's see how the video is....
+2025-05-31 18:10:47,165 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,165 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,166 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 4: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,166 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 4: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,167 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,273 - gui.main_window - INFO - Створення речення 6/9: I'm going to do it....
+2025-05-31 18:10:47,275 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,275 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,276 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 5: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,276 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 5: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,277 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,277 - gui.main_window - INFO - Створення речення 7/9: Let's see if it's okay....
+2025-05-31 18:10:47,278 - processing.database_manager - INFO - Відео додано в БД: 2025-05-31 17-47-20.mkv (ID: 10)
+2025-05-31 18:10:47,278 - data.video_processor - INFO - Витягування аудіо: 2025-05-31 17-47-20.mkv
+2025-05-31 18:10:47,278 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,278 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,279 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 6: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,279 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 6: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,280 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,280 - gui.main_window - INFO - Створення речення 8/9: Thank you....
+2025-05-31 18:10:47,282 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,282 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,284 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 7: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,284 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 7: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,285 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,285 - gui.main_window - INFO - Створення речення 9/9: Oh, salty vault....
+2025-05-31 18:10:47,288 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,288 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,289 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 8: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,290 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 8: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:10:47,290 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:10:47,297 - processing.audio_extractor - INFO - Початок витягування аудіо з 2025-05-31 17-47-20.mkv
+2025-05-31 18:10:47,396 - gui.main_window - INFO - === СТВОРЕНО 0 ВІДЖЕТІВ ===
+2025-05-31 18:10:47,398 - gui.main_window - INFO - === ВІДОБРАЖЕННЯ ЗАВЕРШЕНО: 0 віджетів ===
+2025-05-31 18:10:48,850 - processing.audio_extractor - INFO - Аудіо успішно витягнуто: processed\audio\2025-05-31 17-47-20.wav
+2025-05-31 18:10:48,850 - data.video_processor - INFO - Транскрипція: 2025-05-31 17-47-20.mkv
+2025-05-31 18:10:48,850 - processing.transcriber - INFO - Початок транскрипції: 2025-05-31 17-47-20.wav
+2025-05-31 18:11:07,997 - processing.transcriber - INFO - Збережено: 2025-05-31 17-47-20_20250531_181048.json, 2025-05-31 17-47-20_20250531_181048.srt, 2025-05-31 17-47-20_20250531_181048.txt
+2025-05-31 18:11:07,997 - processing.transcriber - INFO - Транскрипція завершена: 106 сегментів
+2025-05-31 18:11:07,997 - data.video_processor - INFO - Приклад сегменту: {'id': 0, 'seek': 0, 'start': np.float64(16.16), 'end': np.float64(17.56), 'text': ' you', 'tokens': [50364, 291, 50464], 'temperature': 0.0, 'avg_logprob': -0.7091165781021118, 'compression_ratio': 0.2727272727272727, 'no_speech_prob': 0.9354744553565979, 'words': [{'word': ' you', 'start': np.float64(16.16), 'end': np.float64(17.56), 'probability': np.float64(0.3225356936454773)}]}
+2025-05-31 18:11:07,997 - data.video_processor - INFO - Ключі сегменту: ['id', 'seek', 'start', 'end', 'text', 'tokens', 'temperature', 'avg_logprob', 'compression_ratio', 'no_speech_prob', 'words']
+2025-05-31 18:11:08,002 - processing.database_manager - INFO - Транскрипція додана: 106 сегментів
+2025-05-31 18:11:08,002 - data.video_processor - INFO - Розбивка на речення: 106 сегментів
+2025-05-31 18:11:08,003 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:11:08,003 - data.video_processor - INFO - Отримано 0 унікальних речень після локальної дедуплікації
+2025-05-31 18:11:08,003 - data.video_processor - INFO - Глобальна дедуплікація з існуючими реченнями...
+2025-05-31 18:11:08,004 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:08,190 - data.video_processor - INFO - Глобальна дедуплікація: знайдено 0 дублікатів, підтягнуто 0 речень з AI
+2025-05-31 18:11:18,294 - data.data_manager - INFO - Новий стан створено для 2025-05-31 17-47-20.mkv
+2025-05-31 18:11:18,298 - data.video_processor - INFO - Обробка завершена: 2025-05-31 17-47-20.mkv
+2025-05-31 18:11:18,298 - data.video_processor - INFO -   📊 Всього речень: 0
+2025-05-31 18:11:18,298 - data.video_processor - INFO -   🆕 Нових речень: 0
+2025-05-31 18:11:18,298 - data.video_processor - INFO -   🔄 Дублікатів знайдено: 0
+2025-05-31 18:11:18,298 - data.video_processor - INFO -   🤖 AI відповідей підтягнуто: 0
+2025-05-31 18:11:21,198 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 14-40-26.mkv
+2025-05-31 18:11:23,821 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 14-32-47.mkv
+2025-05-31 18:11:30,374 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 14-17-52.mkv
+2025-05-31 18:11:35,574 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 14-06-16.mkv
+2025-05-31 18:11:43,903 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-45-19.mkv
+2025-05-31 18:11:46,528 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-28-01.mkv
+2025-05-31 18:11:47,169 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-23-48.mkv
+2025-05-31 18:11:49,694 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 12-11-12.mkv
+2025-05-31 18:11:49,867 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-30 22-25-00.mkv
+2025-05-31 18:11:49,867 - data.video_processor - INFO - Обробка завершена: 1/1 успішно
+2025-05-31 18:11:49,867 - data.video_processor - INFO - Загальний час: 62.8 секунд
+2025-05-31 18:11:49,867 - data.video_processor - INFO - Речень витягнуто: 0
+2025-05-31 18:11:49,869 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,870 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:11:49,871 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,872 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 18:11:49,873 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,874 - data.video_processor - INFO - Дедуплікація: 28 → 10 речень
+2025-05-31 18:11:49,874 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,875 - data.video_processor - INFO - Дедуплікація: 13 → 5 речень
+2025-05-31 18:11:49,876 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,877 - data.video_processor - INFO - Дедуплікація: 19 → 11 речень
+2025-05-31 18:11:49,877 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,878 - data.video_processor - INFO - Дедуплікація: 52 → 43 речень
+2025-05-31 18:11:49,879 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,880 - data.video_processor - INFO - Дедуплікація: 8 → 8 речень
+2025-05-31 18:11:49,881 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,882 - data.video_processor - INFO - Дедуплікація: 81 → 69 речень
+2025-05-31 18:11:49,883 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,884 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:11:49,884 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:11:49,886 - data.video_processor - INFO - Дедуплікація: 97 → 78 речень
+2025-05-31 18:11:49,887 - gui.main_window - INFO - Завантажено 10 відео
+2025-05-31 18:12:30,599 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:12:30,601 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:12:30,602 - gui.main_window - INFO - === ПОЧАТОК ВІДОБРАЖЕННЯ РЕЧЕНЬ ===
+2025-05-31 18:12:30,602 - gui.main_window - INFO - Кількість речень для відображення: 0
+2025-05-31 18:12:30,602 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:12:30,602 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:12:30,602 - gui.main_window - INFO - Заголовок оновлено: 2025-05-31 17-47-20.mkv, статистика: 0 речень
+2025-05-31 18:12:30,626 - gui.main_window - INFO - === СТВОРЕНО 0 ВІДЖЕТІВ ===
+2025-05-31 18:12:30,628 - gui.main_window - INFO - === ВІДОБРАЖЕННЯ ЗАВЕРШЕНО: 0 віджетів ===
+2025-05-31 18:12:32,044 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:12:32,045 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 18:12:32,046 - gui.main_window - INFO - === ПОЧАТОК ВІДОБРАЖЕННЯ РЕЧЕНЬ ===
+2025-05-31 18:12:32,046 - gui.main_window - INFO - Кількість речень для відображення: 9
+2025-05-31 18:12:32,046 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:12:32,046 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:12:32,046 - gui.main_window - INFO - Заголовок оновлено: 2025-05-31 14-06-16.mkv, статистика: 9 речень • ⏱️ 14.7 сек • 📊 середнє: 1.6с • 📏 0.5с - 4.1с
+2025-05-31 18:12:32,066 - gui.main_window - INFO - Створення речення 1/9: That's great now...
+2025-05-31 18:12:32,068 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,068 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,069 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 0: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,069 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 0: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,069 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,069 - gui.main_window - INFO - Створення речення 2/9: And you good guy....
+2025-05-31 18:12:32,071 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,071 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,071 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 1: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,072 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 1: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,072 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,072 - gui.main_window - INFO - Створення речення 3/9: Let's just watch the video....
+2025-05-31 18:12:32,073 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,073 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,074 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 2: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,074 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 2: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,074 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,074 - gui.main_window - INFO - Створення речення 4/9: Let's see the original one....
+2025-05-31 18:12:32,075 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,075 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,076 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 3: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,076 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 3: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,076 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,076 - gui.main_window - INFO - Створення речення 5/9: Let's see how the video is....
+2025-05-31 18:12:32,078 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,078 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,078 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 4: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,078 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 4: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,079 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,190 - gui.main_window - INFO - Створення речення 6/9: I'm going to do it....
+2025-05-31 18:12:32,191 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,191 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,192 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 5: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,192 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 5: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,193 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,193 - gui.main_window - INFO - Створення речення 7/9: Let's see if it's okay....
+2025-05-31 18:12:32,194 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,194 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,195 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 6: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,195 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 6: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,195 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,195 - gui.main_window - INFO - Створення речення 8/9: Thank you....
+2025-05-31 18:12:32,196 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,196 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,197 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 7: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,197 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 7: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,197 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,198 - gui.main_window - INFO - Створення речення 9/9: Oh, salty vault....
+2025-05-31 18:12:32,199 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,199 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,200 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 8: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,200 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 8: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:12:32,200 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:12:32,313 - gui.main_window - INFO - === СТВОРЕНО 0 ВІДЖЕТІВ ===
+2025-05-31 18:12:32,314 - gui.main_window - INFO - === ВІДОБРАЖЕННЯ ЗАВЕРШЕНО: 0 віджетів ===
+2025-05-31 18:12:36,105 - gui.main_window - INFO - Закриття програми...
+2025-05-31 18:12:36,106 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:12:36,106 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:12:36,165 - __main__ - INFO - Програма завершена нормально
+2025-05-31 18:13:01,634 - __main__ - INFO - ============================================================
+2025-05-31 18:13:01,634 - __main__ - INFO - Game Learning v2.0 - Запуск програми
+2025-05-31 18:13:01,634 - __main__ - INFO - ============================================================
+2025-05-31 18:13:01,634 - __main__ - INFO - Початок ініціалізації системи...
+2025-05-31 18:13:01,634 - __main__ - INFO - Перевірка залежностей...
+2025-05-31 18:13:03,217 - __main__ - INFO - Перевірка зовнішніх інструментів...
+2025-05-31 18:13:03,235 - __main__ - INFO - FFmpeg знайдено
+2025-05-31 18:13:05,299 - __main__ - INFO - Ollama знайдено з 2 Llama моделями
+2025-05-31 18:13:05,299 - __main__ - INFO - Статус системи:
+2025-05-31 18:13:05,299 - __main__ - INFO - FFmpeg: ✅ Доступний
+2025-05-31 18:13:05,299 - __main__ - INFO - Ollama: ✅ Доступний (2 Llama моделей)
+2025-05-31 18:13:05,299 - __main__ - INFO - Запуск головного вікна...
+2025-05-31 18:13:05,358 - ai.ai_manager - INFO - Конфігурація AI завантажена
+2025-05-31 18:13:07,404 - ai.ai_manager - INFO - Ollama клієнт ініціалізований: llama3.1:8b
+2025-05-31 18:13:07,404 - ai.ai_manager - INFO - ✨ Skyrim контекст активовано для Fantasy RPG діалогів
+2025-05-31 18:13:07,404 - data.data_manager - INFO - База даних ініціалізована успішно
+2025-05-31 18:13:07,405 - processing.transcriber - INFO - Використовується пристрій: cpu
+2025-05-31 18:13:07,405 - processing.transcriber - INFO - Завантаження Whisper модель: tiny
+2025-05-31 18:13:07,629 - processing.transcriber - INFO - Модель успішно завантажена!
+2025-05-31 18:13:07,630 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:07,631 - data.data_manager - INFO - База даних ініціалізована успішно
+2025-05-31 18:13:07,631 - gui.main_window - INFO - Всі менеджери ініціалізовані успішно
+2025-05-31 18:13:12,037 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,038 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:13:12,039 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,040 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 18:13:12,040 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,041 - data.video_processor - INFO - Дедуплікація: 28 → 10 речень
+2025-05-31 18:13:12,042 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,043 - data.video_processor - INFO - Дедуплікація: 13 → 5 речень
+2025-05-31 18:13:12,043 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,044 - data.video_processor - INFO - Дедуплікація: 19 → 11 речень
+2025-05-31 18:13:12,045 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,046 - data.video_processor - INFO - Дедуплікація: 52 → 43 речень
+2025-05-31 18:13:12,047 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,048 - data.video_processor - INFO - Дедуплікація: 8 → 8 речень
+2025-05-31 18:13:12,049 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,050 - data.video_processor - INFO - Дедуплікація: 81 → 69 речень
+2025-05-31 18:13:12,051 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,051 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:13:12,052 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,054 - data.video_processor - INFO - Дедуплікація: 97 → 78 речень
+2025-05-31 18:13:12,056 - gui.main_window - INFO - Завантажено 10 відео
+2025-05-31 18:13:12,056 - __main__ - INFO - Головне вікно створено успішно
+2025-05-31 18:13:12,057 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:13:12,058 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:13:12,171 - data.video_processor - INFO - Початок обробки всіх відео
+2025-05-31 18:13:12,171 - gui.main_window - INFO - === ПОЧАТОК ВІДОБРАЖЕННЯ РЕЧЕНЬ ===
+2025-05-31 18:13:12,171 - gui.main_window - INFO - Кількість речень для відображення: 0
+2025-05-31 18:13:12,171 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:13:12,171 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:13:12,172 - data.video_processor - INFO - Знайдено 6 відео файлів
+2025-05-31 18:13:12,173 - gui.main_window - INFO - Заголовок оновлено: 2025-05-31 17-47-20.mkv, статистика: 0 речень
+2025-05-31 18:13:12,231 - gui.main_window - INFO - === СТВОРЕНО 0 ВІДЖЕТІВ ===
+2025-05-31 18:13:12,232 - gui.main_window - INFO - === ВІДОБРАЖЕННЯ ЗАВЕРШЕНО: 0 віджетів ===
+2025-05-31 18:13:22,222 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 17-47-20.mkv
+2025-05-31 18:13:30,622 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-45-19.mkv
+2025-05-31 18:13:33,306 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-28-01.mkv
+2025-05-31 18:13:33,967 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-23-48.mkv
+2025-05-31 18:13:36,585 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 12-11-12.mkv
+2025-05-31 18:13:36,762 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-30 22-25-00.mkv
+2025-05-31 18:13:36,762 - data.video_processor - INFO - Обробка завершена: 0/0 успішно
+2025-05-31 18:13:36,762 - data.video_processor - INFO - Загальний час: 24.6 секунд
+2025-05-31 18:13:36,762 - data.video_processor - INFO - Речень витягнуто: 0
+2025-05-31 18:14:00,070 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:14:00,071 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 18:14:00,073 - gui.main_window - INFO - === ПОЧАТОК ВІДОБРАЖЕННЯ РЕЧЕНЬ ===
+2025-05-31 18:14:00,073 - gui.main_window - INFO - Кількість речень для відображення: 9
+2025-05-31 18:14:00,073 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:14:00,073 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:14:00,085 - gui.main_window - INFO - Заголовок оновлено: 2025-05-31 14-06-16.mkv, статистика: 9 речень • ⏱️ 14.7 сек • 📊 середнє: 1.6с • 📏 0.5с - 4.1с
+2025-05-31 18:14:00,115 - gui.main_window - INFO - Створення речення 1/9: That's great now...
+2025-05-31 18:14:00,127 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,128 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,129 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 0: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,129 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 0: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,130 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,130 - gui.main_window - INFO - Створення речення 2/9: And you good guy....
+2025-05-31 18:14:00,131 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,131 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,132 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 1: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,132 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 1: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,132 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,132 - gui.main_window - INFO - Створення речення 3/9: Let's just watch the video....
+2025-05-31 18:14:00,134 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,134 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,135 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 2: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,135 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 2: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,135 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,136 - gui.main_window - INFO - Створення речення 4/9: Let's see the original one....
+2025-05-31 18:14:00,137 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,137 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,138 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 3: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,138 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 3: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,138 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,138 - gui.main_window - INFO - Створення речення 5/9: Let's see how the video is....
+2025-05-31 18:14:00,139 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,140 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,140 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 4: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,140 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 4: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,141 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,243 - gui.main_window - INFO - Створення речення 6/9: I'm going to do it....
+2025-05-31 18:14:00,245 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,245 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,246 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 5: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,246 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 5: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,246 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,246 - gui.main_window - INFO - Створення речення 7/9: Let's see if it's okay....
+2025-05-31 18:14:00,247 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,247 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,248 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 6: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,248 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 6: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,248 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,248 - gui.main_window - INFO - Створення речення 8/9: Thank you....
+2025-05-31 18:14:00,249 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,249 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,250 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 7: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,250 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 7: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,250 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,250 - gui.main_window - INFO - Створення речення 9/9: Oh, salty vault....
+2025-05-31 18:14:00,252 - gui.sentence_widget - ERROR - Помилка створення англійської секції: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,252 - gui.sentence_widget - ERROR - Помилка створення віджета: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,253 - gui.sentence_widget - ERROR - ❌ Помилка створення віджета 8: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,253 - gui.main_window - ERROR - ❌ Помилка створення SentenceWidget 8: 'SentenceWidget' object has no attribute 'safe_text_insert'
+2025-05-31 18:14:00,253 - gui.main_window - ERROR - Деталі помилки:
+Traceback (most recent call last):
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\main_window.py", line 466, in create_next_batch
+    sentence_widget = SentenceWidget(
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 197, in __init__
+    self.create_widget()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 294, in create_widget
+    self.create_english_section()
+  File "C:\Users\User-PC\Documents\game-learning-project\gui\sentence_widget.py", line 349, in create_english_section
+    self.safe_text_insert(self.english_text, self.sentence_data['text'])
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SentenceWidget' object has no attribute 'safe_text_insert'
+
+2025-05-31 18:14:00,356 - gui.main_window - INFO - === СТВОРЕНО 0 ВІДЖЕТІВ ===
+2025-05-31 18:14:00,358 - gui.main_window - INFO - === ВІДОБРАЖЕННЯ ЗАВЕРШЕНО: 0 віджетів ===
+2025-05-31 18:14:08,295 - gui.main_window - INFO - Закриття програми...
+2025-05-31 18:14:08,295 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:14:08,295 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:14:08,337 - __main__ - INFO - Програма завершена нормально
+2025-05-31 18:16:51,386 - __main__ - INFO - ============================================================
+2025-05-31 18:16:51,386 - __main__ - INFO - Game Learning v2.0 - Запуск програми
+2025-05-31 18:16:51,386 - __main__ - INFO - ============================================================
+2025-05-31 18:16:51,386 - __main__ - INFO - Початок ініціалізації системи...
+2025-05-31 18:16:51,387 - __main__ - INFO - Перевірка залежностей...
+2025-05-31 18:16:52,781 - __main__ - INFO - Перевірка зовнішніх інструментів...
+2025-05-31 18:16:52,800 - __main__ - INFO - FFmpeg знайдено
+2025-05-31 18:16:54,863 - __main__ - INFO - Ollama знайдено з 2 Llama моделями
+2025-05-31 18:16:54,863 - __main__ - INFO - Статус системи:
+2025-05-31 18:16:54,863 - __main__ - INFO - FFmpeg: ✅ Доступний
+2025-05-31 18:16:54,863 - __main__ - INFO - Ollama: ✅ Доступний (2 Llama моделей)
+2025-05-31 18:16:54,863 - __main__ - INFO - Запуск головного вікна...
+2025-05-31 18:16:54,927 - ai.ai_manager - INFO - Конфігурація AI завантажена
+2025-05-31 18:16:56,984 - ai.ai_manager - INFO - Ollama клієнт ініціалізований: llama3.1:8b
+2025-05-31 18:16:56,984 - ai.ai_manager - INFO - ✨ Skyrim контекст активовано для Fantasy RPG діалогів
+2025-05-31 18:16:56,984 - data.data_manager - INFO - База даних ініціалізована успішно
+2025-05-31 18:16:56,985 - processing.transcriber - INFO - Використовується пристрій: cpu
+2025-05-31 18:16:56,985 - processing.transcriber - INFO - Завантаження Whisper модель: tiny
+2025-05-31 18:16:57,226 - processing.transcriber - INFO - Модель успішно завантажена!
+2025-05-31 18:16:57,227 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:16:57,228 - data.data_manager - INFO - База даних ініціалізована успішно
+2025-05-31 18:16:57,228 - gui.main_window - INFO - Всі менеджери ініціалізовані успішно
+2025-05-31 18:17:01,627 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,629 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:17:01,629 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,630 - data.video_processor - INFO - Дедуплікація: 17 → 9 речень
+2025-05-31 18:17:01,630 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,632 - data.video_processor - INFO - Дедуплікація: 28 → 10 речень
+2025-05-31 18:17:01,633 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,634 - data.video_processor - INFO - Дедуплікація: 13 → 5 речень
+2025-05-31 18:17:01,634 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,635 - data.video_processor - INFO - Дедуплікація: 19 → 11 речень
+2025-05-31 18:17:01,636 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,637 - data.video_processor - INFO - Дедуплікація: 52 → 43 речень
+2025-05-31 18:17:01,638 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,639 - data.video_processor - INFO - Дедуплікація: 8 → 8 речень
+2025-05-31 18:17:01,639 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,641 - data.video_processor - INFO - Дедуплікація: 81 → 69 речень
+2025-05-31 18:17:01,642 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,642 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:17:01,643 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,645 - data.video_processor - INFO - Дедуплікація: 97 → 78 речень
+2025-05-31 18:17:01,646 - gui.main_window - INFO - Завантажено 10 відео
+2025-05-31 18:17:01,647 - __main__ - INFO - Головне вікно створено успішно
+2025-05-31 18:17:01,648 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:01,649 - data.video_processor - INFO - Дедуплікація: 1 → 0 речень
+2025-05-31 18:17:01,719 - gui.main_window - INFO - === ПОЧАТОК ВІДОБРАЖЕННЯ РЕЧЕНЬ ===
+2025-05-31 18:17:01,719 - gui.main_window - INFO - Кількість речень для відображення: 0
+2025-05-31 18:17:01,719 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:17:01,719 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:17:01,721 - gui.main_window - INFO - Заголовок оновлено: 2025-05-31 17-47-20.mkv, статистика: 0 речень
+2025-05-31 18:17:01,772 - data.video_processor - INFO - Початок обробки всіх відео
+2025-05-31 18:17:01,772 - data.video_processor - INFO - Знайдено 6 відео файлів
+2025-05-31 18:17:01,791 - gui.main_window - INFO - === СТВОРЕНО 0 ВІДЖЕТІВ ===
+2025-05-31 18:17:01,795 - gui.main_window - INFO - === ВІДОБРАЖЕННЯ ЗАВЕРШЕНО: 0 віджетів ===
+2025-05-31 18:17:11,844 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 17-47-20.mkv
+2025-05-31 18:17:11,905 - processing.database_manager - INFO - База даних з підтримкою нотаток ініціалізована успішно
+2025-05-31 18:17:11,906 - data.video_processor - INFO - Дедуплікація: 28 → 10 речень
+2025-05-31 18:17:11,907 - gui.main_window - INFO - === ПОЧАТОК ВІДОБРАЖЕННЯ РЕЧЕНЬ ===
+2025-05-31 18:17:11,908 - gui.main_window - INFO - Кількість речень для відображення: 10
+2025-05-31 18:17:11,908 - gui.main_window - INFO - Очищення 0 віджетів...
+2025-05-31 18:17:11,908 - gui.main_window - INFO - Очищення завершено
+2025-05-31 18:17:11,922 - gui.main_window - INFO - Заголовок оновлено: 2025-05-31 14-17-52.mkv, статистика: 10 речень • ⏱️ 35.3 сек • 📊 середнє: 3.5с • 📏 0.1с - 15.5с
+2025-05-31 18:17:11,948 - gui.main_window - INFO - Створення речення 1/10: Once you reach them situation ...
+2025-05-31 18:17:11,975 - gui.sentence_widget - INFO - ✅ SentenceWidget 0 створений успішно
+2025-05-31 18:17:11,975 - gui.main_window - INFO - ✅ SentenceWidget 0 створений успішно
+2025-05-31 18:17:11,975 - gui.main_window - INFO - Створення речення 2/10: and Rда leaving 5...
+2025-05-31 18:17:11,981 - gui.sentence_widget - INFO - ✅ SentenceWidget 1 створений успішно
+2025-05-31 18:17:11,981 - gui.main_window - INFO - ✅ SentenceWidget 1 створений успішно
+2025-05-31 18:17:11,981 - gui.main_window - INFO - Створення речення 3/10: Let's go, let's gopecially Dut...
+2025-05-31 18:17:11,986 - gui.sentence_widget - INFO - ✅ SentenceWidget 2 створений успішно
+2025-05-31 18:17:11,986 - gui.main_window - INFO - ✅ SentenceWidget 2 створений успішно
+2025-05-31 18:17:11,986 - gui.main_window - INFO - Створення речення 4/10: Korean Cup, when we all say ar...
+2025-05-31 18:17:11,991 - gui.sentence_widget - INFO - ✅ SentenceWidget 3 створений успішно
+2025-05-31 18:17:11,991 - gui.main_window - INFO - ✅ SentenceWidget 3 створений успішно
+2025-05-31 18:17:11,991 - gui.main_window - INFO - Створення речення 5/10: Wait, I have to get right B...
+2025-05-31 18:17:11,996 - gui.sentence_widget - INFO - ✅ SentenceWidget 4 створений успішно
+2025-05-31 18:17:11,996 - gui.main_window - INFO - ✅ SentenceWidget 4 створений успішно
+2025-05-31 18:17:12,174 - gui.main_window - INFO - Створення речення 6/10: that's a firmware flight...
+2025-05-31 18:17:12,180 - gui.sentence_widget - INFO - ✅ SentenceWidget 5 створений успішно
+2025-05-31 18:17:12,180 - gui.main_window - INFO - ✅ SentenceWidget 5 створений успішно
+2025-05-31 18:17:12,180 - gui.main_window - INFO - Створення речення 7/10: and let's start with...
+2025-05-31 18:17:12,185 - gui.sentence_widget - INFO - ✅ SentenceWidget 6 створений успішно
+2025-05-31 18:17:12,185 - gui.main_window - INFO - ✅ SentenceWidget 6 створений успішно
+2025-05-31 18:17:12,185 - gui.main_window - INFO - Створення речення 8/10: I'm going to go to the next on...
+2025-05-31 18:17:12,191 - gui.sentence_widget - INFO - ✅ SentenceWidget 7 створений успішно
+2025-05-31 18:17:12,192 - gui.main_window - INFO - ✅ SentenceWidget 7 створений успішно
+2025-05-31 18:17:12,192 - gui.main_window - INFO - Створення речення 9/10: There's a lot of space in ther...
+2025-05-31 18:17:12,197 - gui.sentence_widget - INFO - ✅ SentenceWidget 8 створений успішно
+2025-05-31 18:17:12,197 - gui.main_window - INFO - ✅ SentenceWidget 8 створений успішно
+2025-05-31 18:17:12,197 - gui.main_window - INFO - Створення речення 10/10: We need to go to the next one....
+2025-05-31 18:17:12,202 - gui.sentence_widget - INFO - ✅ SentenceWidget 9 створений успішно
+2025-05-31 18:17:12,202 - gui.main_window - INFO - ✅ SentenceWidget 9 створений успішно
+2025-05-31 18:17:12,391 - gui.main_window - INFO - === СТВОРЕНО 10 ВІДЖЕТІВ ===
+2025-05-31 18:17:12,408 - gui.main_window - INFO - === ВІДОБРАЖЕННЯ ЗАВЕРШЕНО: 10 віджетів ===
+2025-05-31 18:17:20,235 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-45-19.mkv
+2025-05-31 18:17:22,913 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-28-01.mkv
+2025-05-31 18:17:23,572 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 13-23-48.mkv
+2025-05-31 18:17:26,148 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-31 12-11-12.mkv
+2025-05-31 18:17:26,319 - data.video_processor - INFO - Пропущено (вже оброблено): 2025-05-30 22-25-00.mkv
+2025-05-31 18:17:26,319 - data.video_processor - INFO - Обробка завершена: 0/0 успішно
+2025-05-31 18:17:26,319 - data.video_processor - INFO - Загальний час: 24.5 секунд
+2025-05-31 18:17:26,319 - data.video_processor - INFO - Речень витягнуто: 0
