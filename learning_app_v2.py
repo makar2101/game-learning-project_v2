@@ -327,7 +327,7 @@ def main():
         logger.info("Запуск головного вікна...")
         
         try:
-            from gui.main_window import MainWindow
+            from gui.main_window import UpdatedMainWindow as MainWindow
             
             app = MainWindow()
             logger.info("Головне вікно створено успішно")
